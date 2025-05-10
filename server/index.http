@@ -1,0 +1,11 @@
+### Login correcto
+POST http://localhost:3001/api/usuarios/login
+Content-Type: application/json
+
+{
+  "correo": "diana@gmail.com",
+  "contrasena": "111"
+}
+### Login correcto
+GET http://localhost:3001/api/productos/listar
+Content-Type: application/json

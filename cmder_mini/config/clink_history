@@ -1,0 +1,20 @@
+|CTAG_1744395520_177568062_17672_0
+cd
+cd ProyectoGit\
+mkdir ejemploGit
+cd ejemploGit\
+git init
+|it status
+git add index.html 
+|it status
+git config --global user.name "diana"
+git config --global user.email "dperezangeles7@gmail.com"
+git commit -m "se creo el archivo index"
+|it status
+|it status
+|it status
+git add --all
+git status
+git commit -m "se creo el titulo index"
+git remote add origin https://github.com/Dianap05/webgit.git
+git remote -v
